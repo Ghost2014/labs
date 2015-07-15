@@ -68,16 +68,16 @@ app.config(['$stateProvider','$urlRouterProvider',function($stateProvider,$urlRo
 //    };
 //}]);
 
-app.controller('nav',['$scope',function($scope){
-    $scope.arr = ['active','',''];
-    var mask = 0;
-    $scope.toggle = function(num)
-    {
-        if(num != mask)
-        {
-            $scope.arr[mask] = '';
-            $scope.arr[num] = 'active';
-            mask = num;
-        }
-    }
-}])
+//app.controller('nav',['$scope',function($scope){
+//    $scope.arr = ['active','',''];
+//    var mask = 0;
+//    $scope.toggle = function(num)
+//    {
+//        if(num != mask)
+//        {
+//            $scope.arr[mask] = '';
+//            $scope.arr[num] = 'active';
+//            mask = num;
+//        }
+//    }
+//}])

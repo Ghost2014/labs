@@ -8,12 +8,12 @@
 <body>
 <div class="container">
     <div class="navbar">
-        <div class="navbar-inner" ng-controller="nav">
+        <div class="navbar-inner">
             <a class="brand" href="#">复仇者</a>
             <ul class="nav" id="nav">
-                <li data-sref="index" class="{{ arr[0] }}"><a ui-sref="index" ng-click="toggle(0)">首页</a></li>
-                <li data-sref="blog" class="{{ arr[1] }}"><a ui-sref="blog" ng-click="toggle(1)">博客</a></li>
-                <li data-sref="demo" class="{{ arr[2] }}"><a ui-sref="demo" ng-click="toggle(2)">实例</a></li>
+                <li data-sref="index"><a ui-sref="index">首页</a></li>
+                <li data-sref="blog"><a ui-sref="blog">博客</a></li>
+                <li data-sref="demo"><a ui-sref="demo">实例</a></li>
             </ul>
         </div>
     </div>
@@ -23,6 +23,6 @@
 <script src="lib/angular-ui-router.min.js"></script>
 <script src="lib/ocLazyLoad.js"></script>
 <script src="route/route.js"></script>
-<!--<script src="static/js/index.nav.js"></script>-->
+<script src="static/js/index.nav.js"></script>
 </body>
 </html>
