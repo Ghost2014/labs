@@ -1,0 +1,9 @@
+<h3 ng-bind="title" class="text-center"></h3>
+<ul class="thumbnails">
+    <li class="span4" ng-repeat="items in info">
+        <div class="thumbnail">
+            <img src="{{items.images}}" alt="">
+            <h3 ng-bind="items.title"></h3>
+        </div>
+    </li>
+</ul>
