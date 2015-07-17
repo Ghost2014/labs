@@ -67,19 +67,14 @@ app.controller("table",["$scope",function($scope){
         //],
 
         columns: [
-            {field:"user_email",title:"email11",align:"center",valign:"middle",sortable:"true",rowspan:2},
-            {field:"user_company",title:"company",align:"center",valign:"middle",sortable:"true"},
-            {field:"user_dates",title:"date",align:"center",valign:"middle",sortable:"true"},
-            {field:"user_lastlogintime",title:"lastlogintime",align:"center",valign:"middle",sortable:"true"},
-            {field:"user_version",title:"version",align:"center",valign:"middle",sortable:"true"},
-            {field:"user_isv2",title:"isv2",align:"center",valign:"middle",sortable:"true"},
-            {field:"userstatus_usertype",title:"usertype",align:"center",valign:"middle",sortable:"true"},
-            {field:"userstatus_package_id",title:"package_id",align:"center",valign:"middle",sortable:"true"},
-            {field:"userstatus_end_time",title:"end_time",align:"center",valign:"middle",sortable:"true"}
+            {field:"id",title:"ID",align:"center",valign:"middle",sortable:false,width:"25%"},
+            {field:"name",title:"姓名",align:"center",valign:"middle",sortable:false,width:"25%"},
+            {field:"age",title:"年龄",align:"center",valign:"middle",sortable:false,width:"25%"},
+            {field:"sex",title:"性别",align:"center",valign:"middle",sortable:false,width:"25%"},
         ],
 
         data : [
-            {"user_email":"20dai.rikon@gmail.com","user_company":"","user_dates":"2014-10-13 13:35:51","user_lastlogintime":"0","user_version":"0","user_isv2":"0","userstatus_usertype":"0","userstatus_package_id":"100014","userstatus_end_time":"NULL"}
+            {id:"1",name:"复仇者集合",age:34,sex:"女"}
         ]
     };
 }]);
